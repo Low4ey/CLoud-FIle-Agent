@@ -1,0 +1,56 @@
+/* PDF Viewer Component Styles */
+.pdf-container {
+  width: 100%;
+  height: 70vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf-viewer {
+  height: 100%;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.pdf-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.pdf-page-info {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.pdf-button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.pdf-button:disabled {
+  background-color: #d1d5db;
+  color: #6b7280;
+  cursor: not-allowed;
+}
+
+.pdf-button:not(:disabled) {
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+.pdf-button:not(:disabled):hover {
+  background-color: #4338ca;
+} 

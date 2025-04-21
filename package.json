@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/sockjs": "^0.3.36"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@tanstack/react-query": "^5.74.3",
+    "date-fns": "^4.1.0"
+  }
+}
